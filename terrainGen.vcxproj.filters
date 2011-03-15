@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\testApp.cpp" />
+    <ClCompile Include="src\ofxShader\ofxShader.cpp">
+      <Filter>ofxShader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FboTexture.cpp" />
+    <ClCompile Include="src\Texture.cpp" />
+    <ClCompile Include="src\Vector.cpp" />
+    <ClCompile Include="src\noise.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h" />
+    <ClInclude Include="src\ofxShader\ofxShader.h">
+      <Filter>ofxShader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FboTexture.h" />
+    <ClInclude Include="src\Texture.h" />
+    <ClInclude Include="src\DisplayList.h" />
+    <ClInclude Include="src\Vector.h" />
+    <ClInclude Include="src\noise.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ofxShader">
+      <UniqueIdentifier>{3f1a70e4-13c3-425b-ac06-baddbff98d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{1cbbe81a-14f5-4c70-9e1f-d70f49e9f1ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\shader.frag">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="bin\data\shader.vert">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="bin\data\watershader.frag">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="bin\data\watershader.vert">
+      <Filter>shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
